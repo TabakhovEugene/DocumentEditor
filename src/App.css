@@ -1,0 +1,21 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+    font-family: system-ui, sans-serif;
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.app-sidebar {
+    width: 260px;
+    border-right: 1px solid #e0e0e0;
+    background-color: #f9f9f9;
+}
+
+.app-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}

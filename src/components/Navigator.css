@@ -1,0 +1,54 @@
+.navigator {
+    padding: 20px;
+}
+
+.navigator-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.navigator-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigator-item {
+    margin-bottom: 8px;
+}
+
+.navigator-link {
+    background: none;
+    border: none;
+    text-align: left;
+    padding: 6px 8px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.navigator-link:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+.navigator-link--heading {
+    font-weight: bold;
+    color: #222222;
+}
+
+.navigator-link--image {
+    font-style: italic;
+    color: #0066cc;
+}
