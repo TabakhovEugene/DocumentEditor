@@ -2,7 +2,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone [https://github.com/TabakhovEugene/DocumentEditor.git](https://github.com/TabakhovEugene/DocumentEditor.git)
+git clone https://github.com/TabakhovEugene/DocumentEditor.git
 cd DocumentEditor
 ```
 
